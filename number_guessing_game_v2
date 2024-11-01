@@ -1,0 +1,30 @@
+import os
+import random
+
+#Czyszczenie konsoli
+def clear_console():
+    if os.name=='nt': #Windows
+        os.system('cls')
+    else:
+         os.system('clear')
+
+#Poziom trudności
+def difficulty_level():
+    pass
+#Ustawienia
+def setup():
+    difficulty_level = difficulty_level()
+
+def game():
+
+    while True: # PĘTLA PROGAMU
+        clear_console()
+        nuber_to_guess,choices,difficulty_level=setup()
+        guess_counter=0
+
+        while True: #PĘTLA ROZGRYWKI 
+            pass
+
+
+    
+game()
